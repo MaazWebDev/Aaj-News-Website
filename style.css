@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+.head1{
+    height: auto;
+    margin: 30px;
+    font-size: 18px;
+    padding:10px;
+}
+.head1 ul li{
+    list-style: none;
+}
+.head1 li:hover{
+text-decoration: underline;
+}
+.header a{
+    color: #252f3f;
+}
+.head2{
+    height: auto;
+    margin: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+.head2 ul li{
+list-style: none;
+}
+.head2 li:hover{
+text-decoration: underline;
+}
+.logo{
+    text-align: center;
+    height: auto;
+    font-size: 15px;
+    margin: 10px;
+}
+.header span{
+    color: #D7752B;
+}
+.navbar a{
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.navbar a:hover{
+    color: #D7752B;
+}
+.navbar i{
+    color: rgb(151, 150, 150);
+}
+.popular h3{
+background-color: black;
+color: white;
+width: 80px;
+padding: 5px;
+border-radius: 10%;
+text-align: center;
+}
+.popular ul{
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 20px;
+    list-style: decimal;
+    line-height: 100%;
+}
+.popular ul li{
+    padding: 5px;
+}
+.recommended td{
+    padding: 10px;
+}
+.footer a{
+display: inline;
+margin: 5px;
+}
+.footer img:hover{
+    width: 32px;
+}
